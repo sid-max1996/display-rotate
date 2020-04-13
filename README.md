@@ -1,5 +1,7 @@
 # Display Rotate
 
+## Usage
+
 ```javascript
   const displayRotate = require('display-rotate');
   const displayNumber = 1;
