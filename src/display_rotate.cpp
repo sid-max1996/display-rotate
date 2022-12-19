@@ -114,13 +114,13 @@ bool display_rotate::rotateByDisplayPosition(int orientation, int x, int y) {
                 switch (orientation)
                 {
                     case DEGREES_CW_90:
-                        dm.dmDisplayOrientation = DMDO_270;
+                        dm.dmDisplayOrientation = DMDO_90;
                         break;
                     case DEGREES_CW_180:
                         dm.dmDisplayOrientation = DMDO_180;
                         break;
                     case DEGREES_CW_270:
-                        dm.dmDisplayOrientation = DMDO_90;
+                        dm.dmDisplayOrientation = DMDO_270;
                         break;
                     case DEGREES_CW_0:
                         dm.dmDisplayOrientation = DMDO_DEFAULT;
