@@ -1,6 +1,6 @@
 {
   "name": "display-rotate",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "displays rotation in os Windows",
   "repository": "https://github.com/sid-max1996/display-rotate",
   "main": "index.js",
