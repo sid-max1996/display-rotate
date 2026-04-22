@@ -1,13 +1,13 @@
 {
   "name": "display-rotate",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "displays rotation in os Windows",
   "repository": "https://github.com/sid-max1996/display-rotate",
   "main": "index.js",
   "gypfile": true,
   "scripts": {
     "install": "node-gyp-build",
-    "prebuild": "prebuildify --napi",
+    "prebuild": "prebuildify --napi --arch x64 && prebuildify --napi --arch ia32 --target 18.20.0",
     "build": "node-gyp rebuild",
     "clean": "node-gyp clean"
   },
